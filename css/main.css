@@ -1,0 +1,615 @@
+@font-face {
+  font-family: BebasNeueRegular;
+  src: url(../fonts/BebasNeueRegular.ttf); }
+
+body {
+  margin: 0;
+  font-family: BebasNeueRegular, 'Arial Narrow', sans-serif; }
+
+.header-h {
+  color: #000;
+  font-size: 60px;
+  text-transform: uppercase; }
+
+.wrap-navigation {
+  padding-top: 50px; }
+  .wrap-navigation .navigation {
+    background-color: #061115;
+    border-bottom-width: 0px;
+    margin-bottom: 0px; }
+    .wrap-navigation .navigation a {
+      color: #feffff;
+      float: left;
+      font-size: 20px;
+      margin-right: 0px;
+      padding: 11px 22px 11px 24px;
+      text-decoration: none;
+      text-transform: uppercase; }
+    .wrap-navigation .navigation a:hover {
+      background-color: #444;
+      -webkit-transition: background-color, 0.3s ease-in;
+      -o-transition: background-color, 0.3s ease-in;
+      transition: background-color, 0.3s ease-in; }
+
+.wrap-header {
+  background: url("../img/bg-1.jpg") no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  .wrap-header .header {
+    padding-top: 20px;
+    padding-bottom: 520px; }
+    .wrap-header .header .header-left {
+      float: left; }
+      .wrap-header .header .header-left h1 {
+        margin: 0; }
+      .wrap-header .header .header-left p {
+        background-color: #5291b0;
+        color: #fff;
+        font-size: 25px;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-transform: uppercase; }
+    .wrap-header .header .header-right {
+      background-color: #3a5a67;
+      color: #fff;
+      float: right;
+      padding: 5px; }
+      .wrap-header .header .header-right p, .wrap-header .header .header-right h3 {
+        margin: 0; }
+      .wrap-header .header .header-right .header-right-tel {
+        font-size: 58px; }
+      .wrap-header .header .header-right .header-right-text {
+        font-size: 30px;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: right; }
+
+.advantage h2 {
+  margin: 50px 0 25px;
+  text-align: center; }
+
+.advantage .wrap-advantages {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .advantage .wrap-advantages .wrap-advantage {
+    margin-top: 15px;
+    width: 20%; }
+    .advantage .wrap-advantages .wrap-advantage .advantage-img {
+      height: 128px;
+      margin: 0 auto;
+      width: 128px; }
+    .advantage .wrap-advantages .wrap-advantage .img-driver {
+      background: url("../img/driver.png") no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain; }
+    .advantage .wrap-advantages .wrap-advantage .img-hightlevel {
+      background: url("../img/level.png") no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain; }
+    .advantage .wrap-advantages .wrap-advantage .img-service {
+      background: url("../img/service.png") no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain; }
+    .advantage .wrap-advantages .wrap-advantage .img-price {
+      background: url("../img/rubl.png") no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain; }
+    .advantage .wrap-advantages .wrap-advantage .img-sequrity {
+      background: url("../img/sequrity.png") no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain; }
+    .advantage .wrap-advantages .wrap-advantage p {
+      color: #000;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 12px 0 0 0;
+      text-align: center;
+      text-transform: uppercase; }
+
+.autopark h2 {
+  margin: 50px 0 25px;
+  text-align: center; }
+
+.autopark .wrap-cars {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  .autopark .wrap-cars .wrap-car {
+    text-align: center; }
+    .autopark .wrap-cars .wrap-car .autopark-img {
+      margin: 0 auto;
+      height: 120px;
+      width: 200px; }
+    .autopark .wrap-cars .wrap-car .mercedes-sprinter {
+      background: url("../img/sprint.png") bottom center no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain; }
+    .autopark .wrap-cars .wrap-car .mercedes-sprinter2 {
+      background: url("../img/sprint.png") bottom center no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain; }
+    .autopark .wrap-cars .wrap-car .mercedes-sprinter3 {
+      background: url("../img/sprint.png") bottom center no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain; }
+    .autopark .wrap-cars .wrap-car .car-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 5px 0 0; }
+      .autopark .wrap-cars .wrap-car .car-title span {
+        color: red; }
+    .autopark .wrap-cars .wrap-car .btn-read-more {
+      background: #3476b0;
+      color: #fff;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      width: 160px; }
+      .autopark .wrap-cars .wrap-car .btn-read-more:hover {
+        background: #3486b0; }
+    .autopark .wrap-cars .wrap-car .car-window .modal-header .car-title {
+      font-size: 20px; }
+    .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; }
+      .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos .modal-car-img {
+        height: 250px;
+        width: 30%; }
+      .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos .modal-car-foto1 {
+        background: url("../img/car-1.jpg") left bottom no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover; }
+      .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos .modal-car-foto2 {
+        background: url("../img/car-2.jpg") left bottom no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover; }
+      .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos .modal-car-foto3 {
+        background: url("../img/car-3.jpg") left bottom no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover; }
+    .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-description {
+      margin-top: 10px;
+      text-align: left; }
+      .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-description p {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 0; }
+        .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-description p span {
+          font-weight: normal; }
+    .autopark .wrap-cars .wrap-car .car-window .modal-footer .btn-close {
+      background: #3476b0;
+      color: #fff;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      width: 160px; }
+      .autopark .wrap-cars .wrap-car .car-window .modal-footer .btn-close:hover {
+        background: #3486b0; }
+
+.service h2 {
+  margin: 50px 0 25px;
+  text-align: center; }
+
+.service .wrap-servises {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  .service .wrap-servises .wrap-servise {
+    -webkit-box-shadow: -6px -6px 5px 0 #dce3ed, 0 0 50px 40px #e6f0fa;
+            box-shadow: -6px -6px 5px 0 #dce3ed, 0 0 50px 40px #e6f0fa;
+    margin: 30px 0;
+    overflow: hidden;
+    position: relative;
+    -webkit-transform: skewX(-15deg);
+        -ms-transform: skewX(-15deg);
+            transform: skewX(-15deg);
+    width: 230px; }
+    .service .wrap-servises .wrap-servise .servise-img {
+      height: 210px;
+      left: -30px;
+      margin: 0 auto;
+      position: relative;
+      -webkit-transform: skewX(15deg);
+          -ms-transform: skewX(15deg);
+              transform: skewX(15deg);
+      width: 290px; }
+    .service .wrap-servises .wrap-servise .img-01 {
+      background: url("../img/img-01.jpg") left bottom no-repeat;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .service .wrap-servises .wrap-servise .img-02 {
+      background: url("../img/img-02.jpg") left bottom no-repeat;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .service .wrap-servises .wrap-servise .img-03 {
+      background: url("../img/img-03.jpg") left bottom no-repeat;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .service .wrap-servises .wrap-servise .img-04 {
+      background: url("../img/img-04.jpg") left bottom no-repeat;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .service .wrap-servises .wrap-servise .img-05 {
+      background: url("../img/img-05.jpg") left bottom no-repeat;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .service .wrap-servises .wrap-servise .img-06 {
+      background: url("../img/img-06.jpg") left bottom no-repeat;
+      -webkit-background-size: cover;
+              background-size: cover; }
+    .service .wrap-servises .wrap-servise p {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      background: #1e1e1e;
+      color: #fff;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      font-size: 18px;
+      height: 55px;
+      left: -10px;
+      margin: 0;
+      position: relative;
+      text-align: center;
+      text-transform: uppercase;
+      -webkit-transform: skewX(15deg);
+          -ms-transform: skewX(15deg);
+              transform: skewX(15deg);
+      vertical-align: center;
+      width: 250px; }
+  .service .wrap-servises .line-3 {
+    margin-right: 80px; }
+
+.wrap-sales {
+  background: #e8e8e8;
+  -webkit-box-shadow: inset 0 0 10px 3px #b4b4b4;
+          box-shadow: inset 0 0 10px 3px #b4b4b4;
+  margin: 50px auto 25px;
+  padding: 5px 0;
+  text-align: center; }
+  .wrap-sales .sales {
+    color: #838383;
+    font-size: 50px;
+    margin: 0 auto;
+    text-transform: uppercase; }
+
+.comments h2 {
+  margin: 50px 0 25px;
+  text-align: center; }
+
+.comments .carousel .comments-indicators {
+  bottom: 0; }
+  .comments .carousel .comments-indicators li {
+    background: #58abf9;
+    border: none;
+    margin-left: 5px; }
+  .comments .carousel .comments-indicators .active {
+    border: 2px solid #8c8e89; }
+
+.comments .carousel .comments-inner .item .wrap-carousel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 171px; }
+  .comments .carousel .comments-inner .item .wrap-carousel img {
+    margin: auto 0;
+    height: 120px;
+    width: 120px; }
+  .comments .carousel .comments-inner .item .wrap-carousel .right-content {
+    margin-left: 20px;
+    padding-bottom: 40px; }
+    .comments .carousel .comments-inner .item .wrap-carousel .right-content p {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif; }
+
+.comments .carousel .comments-control {
+  background-image: none; }
+  .comments .carousel .comments-control span {
+    color: #58abf9;
+    font-size: 50px; }
+
+.wrap-footer {
+  background: url("../img/bg-2.jpg") no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  .wrap-footer .footer {
+    padding-top: 40px;
+    padding-bottom: 480px; }
+    .wrap-footer .footer .footer-left {
+      float: left; }
+      .wrap-footer .footer .footer-left h1 {
+        margin: 0; }
+      .wrap-footer .footer .footer-left p {
+        background-color: #a5b0c6;
+        color: #fff;
+        font-size: 25px;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-transform: uppercase; }
+    .wrap-footer .footer .footer-right {
+      background-color: #25262b;
+      color: #fff;
+      float: right;
+      padding: 5px; }
+      .wrap-footer .footer .footer-right p, .wrap-footer .footer .footer-right h3 {
+        margin: 0; }
+      .wrap-footer .footer .footer-right .footer-right-tel {
+        font-size: 58px; }
+      .wrap-footer .footer .footer-right .footer-right-text {
+        font-size: 30px;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: right; }
+
+@media screen and (max-width: 1024px) {
+  .service .wrap-servises .line-3 {
+    margin-right: 10px; }
+  .wrap-sales .sales {
+    font-size: 40px; }
+  .comments .carousel .comments-inner .item .wrap-carousel {
+    padding: 0 141px; }
+  .wrap-footer {
+    background-position: 80%; } }
+
+@media screen and (max-width: 991px) {
+  .wrap-header .header .header-right {
+    background-color: #5291b0;
+    float: left;
+    margin-top: 15px; }
+  .advantage .wrap-advantages .wrap-advantage .advantage-img {
+    height: 118px;
+    width: 118px; }
+  .advantage .wrap-advantages .wrap-advantage p {
+    font-size: 15px; }
+  .autopark .wrap-cars .wrap-car .autopark-img {
+    height: 110px;
+    width: 180px; }
+  .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos .modal-car-img {
+    height: 150px; }
+  .service .wrap-servises .line-3 {
+    margin-right: 0; }
+  .service .wrap-servises .line-2 {
+    margin-right: 40px; }
+  .wrap-sales .sales {
+    font-size: 33px; }
+  .comments .carousel .comments-inner .item .wrap-carousel {
+    padding: 0 108px; }
+  .wrap-footer {
+    background-position: 80%; }
+    .wrap-footer .footer .footer-right {
+      background-color: #a5b0c6;
+      float: left;
+      margin-top: 15px; } }
+
+@media screen and (max-width: 768px) {
+  .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos .modal-car-img {
+    height: 180px; }
+  .comments .carousel .comments-inner .item .wrap-carousel .right-content p {
+    font-size: 12px; }
+  .comments .carousel .comments-control span {
+    top: 40%; }
+  .comments .carousel .comments-control .glyphicon-chevron-left {
+    left: 30%; }
+  .comments .carousel .comments-control .glyphicon-chevron-right {
+    right: 30%; } }
+
+@media screen and (max-width: 650px) {
+  .wrap-navigation .navigation .container a:nth-child(4) {
+    display: none; }
+  .wrap-header {
+    background-position: 20%; }
+  .advantage .wrap-advantages .wrap-advantage {
+    width: 33%; }
+  .autopark .wrap-cars .wrap-car .autopark-img {
+    height: 90px;
+    width: 150px; }
+  .autopark .wrap-cars .wrap-car .btn-read-more {
+    width: 140px; }
+  .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos .modal-car-img {
+    height: 150px; }
+  .service .wrap-servises .line-2 {
+    margin-right: 0px; }
+  .wrap-sales .sales {
+    font-size: 28px; }
+  .comments .carousel .comments-inner .item .wrap-carousel {
+    padding: 0 92px; }
+  .wrap-footer {
+    background-position: 85%; } }
+
+@media screen and (max-width: 480px) {
+  .wrap-navigation .navigation a {
+    font-size: 18px;
+    padding: 13px 18px 12px 20px; }
+  .wrap-header .header .header-left h1 {
+    font-size: 50px; }
+  .wrap-header .header .header-left p {
+    font-size: 20px; }
+  .wrap-header .header .header-right .header-right-tel {
+    font-size: 48px; }
+  .wrap-header .header .header-right .header-right-text {
+    font-size: 25px; }
+  .advantage h2 {
+    font-size: 50px; }
+  .advantage .wrap-advantages .wrap-advantage .advantage-img {
+    height: 98px;
+    width: 98px; }
+  .advantage .wrap-advantages .wrap-advantage p {
+    font-size: 14px; }
+  .autopark h2 {
+    font-size: 50px; }
+  .autopark .wrap-cars {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .autopark .wrap-cars .wrap-car {
+      margin-top: 20px;
+      width: 100%; }
+      .autopark .wrap-cars .wrap-car .autopark-img {
+        height: 180px;
+        width: 100%; }
+      .autopark .wrap-cars .wrap-car .car-title {
+        font-size: 20px; }
+      .autopark .wrap-cars .wrap-car .btn-read-more {
+        font-size: 18px;
+        width: 200px; }
+      .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos {
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+        .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos .modal-car-img {
+          height: 300px;
+          margin-top: 10px;
+          width: 100%; }
+  .service h2 {
+    font-size: 50px; }
+  .wrap-sales .sales {
+    font-size: 25px; }
+  .comments h2 {
+    font-size: 50px; }
+  .comments .carousel .comments-inner .item .wrap-carousel {
+    display: block;
+    padding: 0 65px;
+    text-align: center; }
+    .comments .carousel .comments-inner .item .wrap-carousel img {
+      width: 50%;
+      height: 50%; }
+    .comments .carousel .comments-inner .item .wrap-carousel .right-content {
+      margin: 0; }
+  .wrap-footer {
+    background-position: 85%; }
+    .wrap-footer .footer {
+      padding-bottom: 300px; }
+      .wrap-footer .footer .footer-left h1 {
+        font-size: 50px; }
+      .wrap-footer .footer .footer-left p {
+        font-size: 20px; }
+      .wrap-footer .footer .footer-right .footer-right-tel {
+        font-size: 48px; }
+      .wrap-footer .footer .footer-right .footer-right-text {
+        font-size: 25px; } }
+
+@media screen and (max-width: 320px) {
+  .wrap-navigation {
+    padding-top: 43px; }
+    .wrap-navigation .navigation {
+      min-height: 43px; }
+      .wrap-navigation .navigation a {
+        font-size: 14px;
+        padding: 12px 6px 11px 8px; }
+  .wrap-header .header {
+    padding-bottom: 320px; }
+    .wrap-header .header .header-left h1 {
+      font-size: 31px; }
+    .wrap-header .header .header-left p {
+      font-size: 13px; }
+    .wrap-header .header .header-right .header-right-tel {
+      font-size: 28px; }
+    .wrap-header .header .header-right .header-right-text {
+      font-size: 15px; }
+  .advantage h2 {
+    margin-bottom: 15px;
+    margin-top: 43px;
+    font-size: 31px; }
+  .advantage .wrap-advantages .wrap-advantage .advantage-img {
+    height: 73px;
+    width: 73px; }
+  .advantage .wrap-advantages .wrap-advantage p {
+    font-size: 13px; }
+  .autopark h2 {
+    margin-bottom: 0px;
+    margin-top: 43px;
+    font-size: 31px; }
+  .autopark .wrap-cars {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .autopark .wrap-cars .wrap-car {
+      margin-top: 20px; }
+      .autopark .wrap-cars .wrap-car .autopark-img {
+        height: 120px;
+        width: 200px; }
+      .autopark .wrap-cars .wrap-car p {
+        font-size: 18px; }
+      .autopark .wrap-cars .wrap-car .btn-read-more {
+        font-size: 14px;
+        width: 160px; }
+      .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos {
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+        .autopark .wrap-cars .wrap-car .car-window .modal-body .modal-car-fotos .modal-car-img {
+          height: 200px;
+          margin-top: 10px;
+          width: 100%; }
+  .service h2 {
+    font-size: 31px; }
+  .service .wrap-servises .wrap-servise {
+    width: 180px; }
+    .service .wrap-servises .wrap-servise .servise-img {
+      height: 164px;
+      left: -23px;
+      width: 225px; }
+    .service .wrap-servises .wrap-servise p {
+      font-size: 16px;
+      height: 43px;
+      left: -7px;
+      width: 196px; }
+  .wrap-sales .sales {
+    font-size: 20px; }
+  .comments h2 {
+    font-size: 31px; }
+  .comments .carousel .comments-inner .item .wrap-carousel {
+    padding: 0 51px; }
+    .comments .carousel .comments-inner .item .wrap-carousel img {
+      width: 70%;
+      height: 70%; }
+    .comments .carousel .comments-inner .item .wrap-carousel .right-content h3 {
+      font-size: 20px; }
+  .comments .carousel .comments-control .glyphicon-chevron-left {
+    left: 10%; }
+  .comments .carousel .comments-control .glyphicon-chevron-right {
+    right: 10%; }
+  .wrap-footer {
+    background-position: 85%; }
+    .wrap-footer .footer {
+      padding-bottom: 250px; }
+      .wrap-footer .footer .footer-left h1 {
+        font-size: 31px; }
+      .wrap-footer .footer .footer-left p {
+        font-size: 13px; }
+      .wrap-footer .footer .footer-right .footer-right-tel {
+        font-size: 28px; }
+      .wrap-footer .footer .footer-right .footer-right-text {
+        font-size: 15px; } }
